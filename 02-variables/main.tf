@@ -18,7 +18,7 @@ variable "str2" {
   default = "World"
 }
 
-variable "list1" {
+variable "list_1" {
   default = [
   10,
   20,
