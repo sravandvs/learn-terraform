@@ -41,7 +41,7 @@ variable "map1"{
 }
 
 output "list_1"{
-  value = var.list1[2]
+  value = var.list1[1]
 }
 
 output "map1_aws_trainer"{
