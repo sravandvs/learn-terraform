@@ -10,8 +10,6 @@ variable "instances" {
     "mongodb",
     "rabbitmq",
     "redis",
-    "dispatch"
-
   ]
 }
 
