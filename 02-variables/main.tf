@@ -18,7 +18,7 @@ variable "str2" {
   default = "World"
 }
 
-variable "list_1" {
+variable "list1" {
   default = [
   10,
   20,
@@ -40,7 +40,7 @@ variable "map1"{
   }
 }
 
-output "list1"{
+output "list_1"{
   value = var.list1[2]
 }
 
