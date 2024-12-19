@@ -6,10 +6,6 @@ output "URL"{
   value = var.URL
 }
 
-output "URL1" {
-  value = "URL - ${URL}"
-}
-
 variable "num1" {
   default = 10
 }
@@ -44,7 +40,7 @@ variable "map1"{
   }
 }
 
-output "list_1"{
+output "list1"{
   value = var.list1[2]
 }
 
