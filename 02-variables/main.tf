@@ -51,3 +51,8 @@ output "list_1"{
 output "map1_aws_trainer"{
   value = var.map1["aws"]["trainer"]
 }
+
+variable "trainer_name"{}
+output "trainer_name" {
+  value = var.trainer_name
+}
