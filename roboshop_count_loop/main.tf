@@ -1,5 +1,5 @@
 variable "instances" {
-  default = [
+  default = {
     "frontend",
     "cart",
     "catalogue",
@@ -12,7 +12,7 @@ variable "instances" {
     "redis",
     "dispatch"
 
-  ]
+  }
 }
 
 resource "aws_instance" "instance" {
