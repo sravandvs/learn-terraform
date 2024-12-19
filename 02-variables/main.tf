@@ -6,6 +6,10 @@ output "URL"{
   value = var.URL
 }
 
+output "URL_1" {
+  value = "URL - ${URL}"
+}
+
 variable "num1" {
   default = 10
 }
