@@ -9,7 +9,8 @@ variable "instances" {
     "mysql",
     "mongodb",
     "rabbitmq",
-    "redis"
+    "redis",
+    "dispatch"
   ]
 }
 
