@@ -7,7 +7,7 @@ provider "vault" {
 variable "vault_token" {}
 
 data "vault_generic_secret" "example" {
-  path = "kv/my_credentials"
+  path = "kv/data/my_credentials"
 }
 
 # data "vault_kv_secret_v2" "example" {
