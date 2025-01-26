@@ -1,5 +1,5 @@
 provider "vault" {
-  address = "http://127.0.0.1:8200"
+  address = "http://172.31.86.199:8200"
   token   = var.vault_token
   skip_tls_verify = true
 }
